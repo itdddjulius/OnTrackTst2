@@ -22,6 +22,7 @@ import Books from './components/books';
         return (
           // JSX to render goes here... 
 <center>
+<Books books={this.state.books} />
 <form id="login">
     <h1>Books</h1>
     <fieldset id="inputs">
